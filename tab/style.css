@@ -1,0 +1,76 @@
+@import url('http://fonts.cdnfonts.com/css/optima');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    font-family: 'Optima', sans-serif;                               
+    color: #FFF;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid aqua;
+}
+
+.tabs-wrapper {
+    width: 100%;
+    max-width: 960px;
+}
+
+.tab-wrapper {
+    border: 1px solid aqua;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center; 
+}
+
+.tab-link {
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.tab-link.active {
+    color: aqua;
+}
+
+.content-wrapper {
+    padding: 40px 80px;
+
+    min-height: 150px;
+    border: 1px solid aqua;
+}
+
+.tab-content {
+    display: none;
+    opacity: 0;
+    animation: fadeIn 1s ease 1 forwards;
+}
+
+.tab-content.active {
+    display: block; 
+}
+
+@keyframes fadeIn {
+100% {
+        opacity: 1;
+        transform: none; 
+    } 
+}
+  
+

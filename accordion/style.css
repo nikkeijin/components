@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/optima');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,10 @@
 }
 
 body {
-    background-color: #1E1E1E;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    font-family: 'Optima', sans-serif;                               
     color: #FFF;
 }
 

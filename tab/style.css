@@ -28,6 +28,7 @@ body {
 .tabs-wrapper {
     width: 100%;
     max-width: 960px;
+    padding: 0 40px;
 }
 
 .tab-wrapper {
